@@ -26,8 +26,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CarTheme {
-                val navController = rememberNavController()
-                NavGraph(navController = navController)
+
+                NavGraph()
+
             }
         }
     }
